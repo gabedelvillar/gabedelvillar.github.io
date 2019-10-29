@@ -1,0 +1,126 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin:0;
+    height: 100vh;
+    width: 100%;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    color: white;
+    text-align: center;
+    background-image: url("darkMacbook.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+   
+  
+
+}
+
+.name{
+    font-size: 60px;
+   
+}
+
+.headerText{
+    
+    margin: 0 auto;
+}
+
+.smartSpray {
+    display: flex;
+    width: 100%;
+}
+
+.smartSprayText{
+    width: 50%;
+}
+
+.smartSprayScreenshots{
+    width: 50%;
+}
+
+.smartSprayTitle{
+    display: flex;
+   
+}
+
+.smartSprayLogo{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px
+}
+
+.titleText{
+    padding-left: 20px;
+    font-weight: 20px;
+    font-size: 30px;
+}
+
+.title{
+    color: #0492C5;
+    font-weight: bold;
+    font-size: 25px
+}
+
+.nowSmartSpray{
+    display: flex;
+}
+
+.smartSprayLogo{
+    display: flex;
+}
+
+.nowHackingtons{
+    display: flex;
+}
+
+.now {
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nowText{
+    text-align: center;
+    color: #0492C5;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.nowSubText{
+    color: #0492C5;
+    font-weight: bold;
+    font-size: 25px
+}
+.portfolio{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.smartSprayScreenshots{
+    display: flex;
+    flex-direction: row;
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    body{
+        background-color: red;
+    }
+    /* STYLES GO HERE */}
+
