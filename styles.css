@@ -7,9 +7,11 @@ body{
     width: 100%;
 }
 
-html{
+html, body{
     padding: 0;
     margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .header{
@@ -81,6 +83,27 @@ html{
     display: flex;
 }
 
+.btn{
+    background-color: clear;
+    border: 2px solid #0492C5;
+    border-radius: 15px;
+    color: #0492C5;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    width: 300px;
+    position: relative;
+    top: 25%;
+    left: 35%;
+
+}
+.btn:hover {
+    background-color: #0492C5;
+    color: white;
+}
+
 .smartSprayLogo{
     display: flex;
 }
@@ -115,12 +138,166 @@ html{
     display: flex;
     flex-direction: row;
 }
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
-    body{
-        background-color: red;
-    }
-    /* STYLES GO HERE */}
 
+@media only screen and (max-width: 1197px) {
+   
+
+
+    .header{
+        color: white;
+        text-align: center;
+        background-image: url("darkMacbook.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        padding-top: 50px;
+       
+      
+    
+    }
+    html, body{
+        padding: 0px;
+        margin: 0;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1197px) {
+  
+
+
+
+
+    .smartSprayScreenshots{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .projectImg1{
+        padding: 0px;
+        margin: 0 -15px;
+        float: left;
+        
+    }
+
+    .projectImg2{
+        height: 125px;
+        width: 125px;
+       
+    }
+
+ 
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+   .nowSmartSpray{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .smartSprayLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+   }
+   .nowInfoText{
+       text-align: center;
+   }
+
+   .nowSubText{
+       padding: 0px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+       padding-right: 40px;
+       height: 20%;
+   }
+   .nowHackingtons{
+       display: flex;
+       flex-direction: column;
+   }
+
+   .nowCodingDebBox{
+    display: flex;
+    flex-direction: column;
+   }
+
+   
+   .smartSpray {
+    flex-direction: column;
+   
+   
+   
+    
+}
+
+.smartSprayTitle{
+   width: 50vw;
+}
+
+.bio{
+    width: 80vw;
+    word-wrap: break-word;
+}
+
+.smartSprayScreenshots{
+    padding-top: 0px;
+}
+
+.projectImg1{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.nowInfoText{
+    padding-left: 0px;
+}
+
+.btn{
+    background-color: clear;
+    border: 2px solid #0492C5;
+    border-radius: 15px;
+    color: #0492C5;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    width: 300px;
+    position: relative;
+    top: 50%;
+    left: 1%;
+
+}
+.btn:hover {
+    background-color: #0492C5;
+    color: white;
+}
+}
+
+@media only screen and (max-width: 775px) {
+
+   .portfolio{
+       padding-left: 15px;
+       padding-right: 0px;
+   }
+
+ 
+}
